@@ -4,7 +4,9 @@ import './search-box.style.css';
 
 
 class SearchBox extends Component {
-
+    constructor(props) {
+    super(props);
+}
     render(){
         return (
             <input 
