@@ -5,7 +5,9 @@ import './cardList.style.css';
 
 
 class CardList extends Component {
-
+    constructor(props) {
+    super(props);
+}
 
     render(){
 
